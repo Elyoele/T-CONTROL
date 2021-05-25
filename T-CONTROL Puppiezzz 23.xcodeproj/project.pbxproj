@@ -155,8 +155,8 @@
 				7486FAD8265D135900146C1E /* DoubleButton.swift */,
 				7486FADA265D13E200146C1E /* UpdateScroll.swift */,
 				DC5CDE83265BF55A003F39DB /* Updatecard.swift */,
-				DCCA560626593A3200842243 /* Foryoucard2.swift */,
 				DCF1E67C2657C9A900509B55 /* Foryoucard1.swift */,
+				DCCA560626593A3200842243 /* Foryoucard2.swift */,
 				DCF1E6862657CA3B00509B55 /* Timelinecard.swift */,
 			);
 			path = Components;

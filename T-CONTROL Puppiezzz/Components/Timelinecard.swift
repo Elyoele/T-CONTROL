@@ -37,6 +37,7 @@ struct Timelinecard: View {
                             }
                             
                         }
+                        .padding(.bottom, 5)
                         Text(heading)
                             .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
                             .fontWeight(.black)

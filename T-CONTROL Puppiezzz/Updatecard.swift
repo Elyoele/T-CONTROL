@@ -19,7 +19,8 @@ struct Updatecard: View {
                 Image(image)
                     .resizable()
                     .aspectRatio(contentMode: .fill)
-                    .frame(minWidth: 0, idealWidth: 100, maxWidth: .infinity, minHeight: 300, idealHeight: 300, maxHeight: 400, alignment: .center)
+                    .frame(minWidth: 0, idealWidth: 100, maxWidth: .infinity, minHeight: 300, idealHeight: 400, maxHeight: 400, alignment: .center)
+                    .clipped()
                 
                 
                 Text(heading)

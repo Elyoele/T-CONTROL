@@ -12,9 +12,7 @@ struct Update: View {
         ScrollView{
             VStack{
                 
-                VStack {
-                    Updatecard()
-                }
+                Updatecard()
                 
                 Text("Today, for the first time since the surgery, I feel really good. I can finally go to the beach without shame. I’ll be free to remain shirtless without letting dysphoria take over.")
                 
@@ -29,7 +27,7 @@ struct Update: View {
                 }
                 
                 
-                Button1()
+                DoubleButton()
                 
                 Divider()
                 

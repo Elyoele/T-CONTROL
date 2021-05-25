@@ -22,7 +22,7 @@ struct ScrollerView: View {
                 Divider()
                     .padding(.leading)
                 
-                ForEach(diaryEntries, id: \.id) { card in
+                ForEach(memoEntries, id: \.id) { card in
                     Timelinecard(image: card.image, emoticon: card.emoticon, date: card.date, heading: card.heading)
                             }
             }
