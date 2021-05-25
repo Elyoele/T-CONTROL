@@ -11,9 +11,14 @@ struct HVscrollView: View {
     
     @State var showSheetView = false
     
+    @State var searchText: String = ""
+    
     var body: some View {
         NavigationView {
             ScrollView {
+                
+                SearchBar(text: $searchText).tabItem {  }
+                
                 VStack {
                     HScrollView().tabItem {
                         
