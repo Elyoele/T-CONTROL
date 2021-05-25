@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Foryoucard1: View {
     
-    var image = "img 4"
+    var image = "img4"
     var heading = "MAY, 2021"
     
     var body: some View {

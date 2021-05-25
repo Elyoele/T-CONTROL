@@ -67,7 +67,7 @@ struct Timelinecard: View {
 
 struct Timelinecard_Previews: PreviewProvider {
     static var previews: some View {
-        Timelinecard(image: "img 1", emoticon: "🔥", date: "FRI, 14 MAY", heading: "Finally I'm comfortable with my body")
+        Timelinecard(image: "img1", emoticon: "🔥", date: "FRI, 14 MAY", heading: "Finally I'm comfortable with my body")
             .previewLayout(.sizeThatFits)
     }
 }
