@@ -17,6 +17,8 @@ struct Foryou: View {
                 }
                 Foryoucard2().tabItem {
                 }
+                Foryoucard2().tabItem {
+                }
             }
         }
         .navigationTitle("For you")
