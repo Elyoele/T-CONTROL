@@ -10,7 +10,6 @@ import SwiftUI
 struct HVscrollView: View {
     
     @State var showSheetView = false
-    
     @State var searchText: String = ""
     
     var body: some View {
@@ -31,7 +30,8 @@ struct HVscrollView: View {
             .navigationTitle(Text("Timeline"))
             .navigationBarItems(
                 trailing:
-                    Button(action: { self.showSheetView.toggle()})
+                    Button(action: { self.showSheetView.toggle()
+                    })
                         {Image(systemName: "plus")}
                     .sheet(isPresented:$showSheetView) {Addupdate()}
             )

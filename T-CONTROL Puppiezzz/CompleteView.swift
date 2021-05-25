@@ -8,14 +8,22 @@
 import SwiftUI
 
 struct CompleteView: View {
+    @State private var tabSelection = 1
+
     var body: some View {
-        TabView(selection: .constant(1)) {
-            HVscrollView().tabItem {
+        TabView(selection: $tabSelection) {
+            HVscrollView(tabSelection: $tabSelection).tabItem {
                 Label("Timeline", systemImage: "photo.tv")
-            }.tag(1)
-            Calendar1().tabItem {
+            }
+            .onTapGesture {
+                self.tabSelection = 1
+            }
+            Calendar1(tabSelection: $tabSelection).tabItem {
                 Label("Calendar", systemImage: "calendar")
-            }.tag(2)
+            }
+            .onTapGesture {
+                self.tabSelection = 2
+            }
         }
         .accentColor(Color(red: 0.4549019607843137, green: 0.5725490196078431, blue: 0.8431372549019608))
     }
