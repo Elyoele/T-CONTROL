@@ -21,6 +21,8 @@ struct Updatecard: View {
                     .aspectRatio(contentMode: .fill)
                     .frame(minWidth: 0, idealWidth: 100, maxWidth: .infinity, minHeight: 300, idealHeight: 400, maxHeight: 400, alignment: .center)
                     .clipped()
+                    .overlay(LinearGradient(gradient: Gradient(colors: [Color.black.opacity(0.01), Color.black.opacity(0.6)]),
+                                startPoint: .top, endPoint: .bottom))
                 
                 
                 Text(heading)
