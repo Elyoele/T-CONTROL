@@ -9,18 +9,19 @@ import SwiftUI
 
 struct Foryou: View {
     
-    var diaryEntries : [DiaryEntry] = [
-        DiaryEntry(image: "img1", emoticon: "🔥", date: "FRI, 14 MAY", heading: "Finally I'm confortable with my body"),
-        DiaryEntry(image: "img2", emoticon: "🔥", date: "FRI, 15 MAY", heading: "Finally I'm super confortable with my body"),
-        DiaryEntry(image: "img3", emoticon: "🔥", date: "FRI, 16 MAY",  heading: "Finally I'm hyper confortable with my body"),
+    var FuEntries : [FuEntry] = [
+        FuEntry(image: "img4", date: "MAY, 2021"),
+        FuEntry(image: "img5", date: "APRIL, 2021"),
+        FuEntry(image: "img6", date: "MARCH, 2021"),
+        FuEntry(image: "img7", date: "FEBRUARY, 2021"),
+
     ]
     
     var body: some View {
         ScrollView {
-
                 
-                ForEach(diaryEntries, id: \.id) { card in
-                    Timelinecard(image: card.image, emoticon: card.emoticon, date: card.date, heading: card.heading)
+                ForEach(FuEntries, id: \.id) { card in
+                    Foryoucard2(image: card.image, date: card.date)
                     
             }
         }

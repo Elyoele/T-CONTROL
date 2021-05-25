@@ -8,6 +8,14 @@
 import SwiftUI
 
 struct HScrollView: View {
+    
+    var HFuEntries : [HFuEntry] = [
+        HFuEntry(image: "img4", date: "MAY, 2021"),
+        HFuEntry(image: "img5", date: "APR, 2021"),
+        HFuEntry(image: "img6", date: "MAR, 2021"),
+        HFuEntry(image: "img7", date: "FEB, 2021"),
+    ]
+    
     var body: some View {
         VStack {
             HStack {
@@ -23,15 +31,12 @@ struct HScrollView: View {
             .padding(.horizontal)
             .padding(.top, 15)
             ScrollView(.horizontal) {
-                HStack(spacing: 10) {
-                    Foryoucard1().tabItem {                    
-                    }
-                    Foryoucard1().tabItem {
-                        
-                    }
-                    Foryoucard1().tabItem {
-                        
-                    }
+                HStack(spacing: 0) {
+                    
+                    ForEach(HFuEntries, id: \.id) { card in
+                        Foryoucard1(image: card.image, date: card.date)
+                                }
+                    
                 }
             }
         }

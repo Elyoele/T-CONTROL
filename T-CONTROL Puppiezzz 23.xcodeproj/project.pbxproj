@@ -18,6 +18,8 @@
 		7486FAD1265D013500146C1E /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7486FAD0265D013500146C1E /* SearchBar.swift */; };
 		7486FAD9265D135900146C1E /* DoubleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7486FAD8265D135900146C1E /* DoubleButton.swift */; };
 		7486FADB265D13E200146C1E /* UpdateScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7486FADA265D13E200146C1E /* UpdateScroll.swift */; };
+		7486FADD265D283800146C1E /* FuEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7486FADC265D283700146C1E /* FuEntry.swift */; };
+		7486FADF265D2A8B00146C1E /* HFuEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7486FADE265D2A8B00146C1E /* HFuEntry.swift */; };
 		DC1841352659C2840061AC83 /* ConditionalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1841342659C2840061AC83 /* ConditionalView.swift */; };
 		DC5CDE73265A7D0B003F39DB /* Animations1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5CDE72265A7D0B003F39DB /* Animations1View.swift */; };
 		DC5CDE7A265A80F7003F39DB /* Modifier2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5CDE78265A80F7003F39DB /* Modifier2View.swift */; };
@@ -73,6 +75,8 @@
 		7486FAD0265D013500146C1E /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		7486FAD8265D135900146C1E /* DoubleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleButton.swift; sourceTree = "<group>"; };
 		7486FADA265D13E200146C1E /* UpdateScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateScroll.swift; sourceTree = "<group>"; };
+		7486FADC265D283700146C1E /* FuEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuEntry.swift; sourceTree = "<group>"; };
+		7486FADE265D2A8B00146C1E /* HFuEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HFuEntry.swift; sourceTree = "<group>"; };
 		DC1841342659C2840061AC83 /* ConditionalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalView.swift; sourceTree = "<group>"; };
 		DC5CDE72265A7D0B003F39DB /* Animations1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations1View.swift; sourceTree = "<group>"; };
 		DC5CDE78265A80F7003F39DB /* Modifier2View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Modifier2View.swift; sourceTree = "<group>"; };
@@ -134,6 +138,8 @@
 			isa = PBXGroup;
 			children = (
 				1DA23580265CE082009231AA /* DiaryEntry.swift */,
+				7486FADC265D283700146C1E /* FuEntry.swift */,
+				7486FADE265D2A8B00146C1E /* HFuEntry.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -153,7 +159,6 @@
 			children = (
 				7486FAD0265D013500146C1E /* SearchBar.swift */,
 				7486FAD8265D135900146C1E /* DoubleButton.swift */,
-				7486FADA265D13E200146C1E /* UpdateScroll.swift */,
 				DC5CDE83265BF55A003F39DB /* Updatecard.swift */,
 				DCF1E67C2657C9A900509B55 /* Foryoucard1.swift */,
 				DCCA560626593A3200842243 /* Foryoucard2.swift */,
@@ -169,6 +174,7 @@
 				7463A25E26584990006FAD8A /* Calendar1.swift */,
 				7463A2BC265B1454006FAD8A /* Addupdate.swift */,
 				7463A26A26587C39006FAD8A /* Update.swift */,
+				7486FADA265D13E200146C1E /* UpdateScroll.swift */,
 				7463A26C26587C63006FAD8A /* Addmemo.swift */,
 				7463A26226586646006FAD8A /* Foryou.swift */,
 			);
@@ -410,6 +416,8 @@
 				DC1841352659C2840061AC83 /* ConditionalView.swift in Sources */,
 				DCCA56142659485B00842243 /* LoopView.swift in Sources */,
 				7463A26326586646006FAD8A /* Foryou.swift in Sources */,
+				7486FADF265D2A8B00146C1E /* HFuEntry.swift in Sources */,
+				7486FADD265D283800146C1E /* FuEntry.swift in Sources */,
 				DC5CDE7B265A80F7003F39DB /* Modifier1View.swift in Sources */,
 				DCF1E6872657CA3B00509B55 /* Timelinecard.swift in Sources */,
 				DCF1E6522657C8F300509B55 /* TabbedView.swift in Sources */,

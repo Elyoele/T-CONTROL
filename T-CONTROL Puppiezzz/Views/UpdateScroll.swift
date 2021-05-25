@@ -14,19 +14,19 @@ struct UpdateScroll: View {
                 
                 Image("img1")
                     .resizable()
-                    .frame(width: 150.0, height: 240.0)
+                    .frame(width: 150.0, height: 220.0)
                     .aspectRatio(contentMode: .fill)
                     .cornerRadius(14.0)
                 
                 Image("img2")
                     .resizable()
-                    .frame(width: 150.0, height: 240.0)
+                    .frame(width: 150.0, height: 220.0)
                     .aspectRatio(contentMode: .fill)
                     .cornerRadius(14.0)
                 
                 Image("img3")
                     .resizable()
-                    .frame(width: 150.0, height: 240.0)
+                    .frame(width: 150.0, height: 220.0)
                     .aspectRatio(contentMode: .fill)
                     .cornerRadius(14.0)
 

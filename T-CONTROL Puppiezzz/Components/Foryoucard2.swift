@@ -8,18 +8,20 @@
 import SwiftUI
 
 struct Foryoucard2: View {
-    var image = "img5"
-    var heading = "MAY, 2021"
+    var image : String
+    var date : String
     
     var body: some View {
         ZStack(alignment: .bottomLeading) {
             Image(image)
                 .resizable()
-                .aspectRatio(contentMode: .fit)
+                .aspectRatio(contentMode: .fill)
+                .frame(minWidth: 0, idealWidth: 100, maxWidth: .infinity, minHeight: 250, idealHeight: 300, maxHeight: 300, alignment: .center)
+                .clipped()
             
             
             HStack {
-                Text(heading)
+                Text(date)
                     .font(.title)
                     .fontWeight(.black)
                     .foregroundColor(.white)
@@ -38,7 +40,7 @@ struct Foryoucard2: View {
 }
 struct Foryoucard2_Previews: PreviewProvider {
     static var previews: some View {
-        Foryoucard2()
+        Foryoucard2(image: "img6", date: "MARCH, 2021")
             .previewLayout(.sizeThatFits)
     }
 }
