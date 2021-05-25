@@ -9,7 +9,10 @@ import SwiftUI
 
 struct Addmemo: View {
     var body: some View {
-        Text("Add memo")
+        ScrollView{
+            Text("Add memo")
+        }
+        .navigationTitle(Text("Add memo"))
     }
 }
 
