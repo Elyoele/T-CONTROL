@@ -16,8 +16,8 @@
 		7463A26D26587C63006FAD8A /* Addmemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7463A26C26587C63006FAD8A /* Addmemo.swift */; };
 		7463A2BD265B1454006FAD8A /* Addupdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7463A2BC265B1454006FAD8A /* Addupdate.swift */; };
 		7486FAD1265D013500146C1E /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7486FAD0265D013500146C1E /* SearchBar.swift */; };
-		7486FAD3265D08FA00146C1E /* Button1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7486FAD2265D08FA00146C1E /* Button1.swift */; };
-		7486FAD5265D0A1700146C1E /* Updatescroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7486FAD4265D0A1700146C1E /* Updatescroll.swift */; };
+		7486FAD9265D135900146C1E /* DoubleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7486FAD8265D135900146C1E /* DoubleButton.swift */; };
+		7486FADB265D13E200146C1E /* UpdateScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7486FADA265D13E200146C1E /* UpdateScroll.swift */; };
 		DC1841352659C2840061AC83 /* ConditionalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1841342659C2840061AC83 /* ConditionalView.swift */; };
 		DC5CDE73265A7D0B003F39DB /* Animations1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5CDE72265A7D0B003F39DB /* Animations1View.swift */; };
 		DC5CDE7A265A80F7003F39DB /* Modifier2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5CDE78265A80F7003F39DB /* Modifier2View.swift */; };
@@ -71,8 +71,8 @@
 		7463A26C26587C63006FAD8A /* Addmemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Addmemo.swift; sourceTree = "<group>"; };
 		7463A2BC265B1454006FAD8A /* Addupdate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Addupdate.swift; sourceTree = "<group>"; };
 		7486FAD0265D013500146C1E /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
-		7486FAD2265D08FA00146C1E /* Button1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Button1.swift; path = ../../../Button1.swift; sourceTree = "<group>"; };
-		7486FAD4265D0A1700146C1E /* Updatescroll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Updatescroll.swift; path = ../../../Updatescroll.swift; sourceTree = "<group>"; };
+		7486FAD8265D135900146C1E /* DoubleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleButton.swift; sourceTree = "<group>"; };
+		7486FADA265D13E200146C1E /* UpdateScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateScroll.swift; sourceTree = "<group>"; };
 		DC1841342659C2840061AC83 /* ConditionalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalView.swift; sourceTree = "<group>"; };
 		DC5CDE72265A7D0B003F39DB /* Animations1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations1View.swift; sourceTree = "<group>"; };
 		DC5CDE78265A80F7003F39DB /* Modifier2View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Modifier2View.swift; sourceTree = "<group>"; };
@@ -152,8 +152,8 @@
 			isa = PBXGroup;
 			children = (
 				7486FAD0265D013500146C1E /* SearchBar.swift */,
-				7486FAD2265D08FA00146C1E /* Button1.swift */,
-				7486FAD4265D0A1700146C1E /* Updatescroll.swift */,
+				7486FAD8265D135900146C1E /* DoubleButton.swift */,
+				7486FADA265D13E200146C1E /* UpdateScroll.swift */,
 				DC5CDE83265BF55A003F39DB /* Updatecard.swift */,
 				DCCA560626593A3200842243 /* Foryoucard2.swift */,
 				DCF1E67C2657C9A900509B55 /* Foryoucard1.swift */,
@@ -400,14 +400,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7486FAD9265D135900146C1E /* DoubleButton.swift in Sources */,
 				DC5CDE7A265A80F7003F39DB /* Modifier2View.swift in Sources */,
-				7486FAD5265D0A1700146C1E /* Updatescroll.swift in Sources */,
 				7463A26D26587C63006FAD8A /* Addmemo.swift in Sources */,
 				DCCA561826594C8600842243 /* AlertView.swift in Sources */,
 				DCF1E67B2657C99300509B55 /* HScrollView.swift in Sources */,
 				7463A26B26587C39006FAD8A /* Update.swift in Sources */,
 				7463A25D26584833006FAD8A /* CompleteView.swift in Sources */,
-				7486FAD3265D08FA00146C1E /* Button1.swift in Sources */,
 				DC1841352659C2840061AC83 /* ConditionalView.swift in Sources */,
 				DCCA56142659485B00842243 /* LoopView.swift in Sources */,
 				7463A26326586646006FAD8A /* Foryou.swift in Sources */,
@@ -424,6 +423,7 @@
 				DCCA560F2659445800842243 /* StatusView.swift in Sources */,
 				DC5CDE73265A7D0B003F39DB /* Animations1View.swift in Sources */,
 				DCCA5612265946B800842243 /* BindingView.swift in Sources */,
+				7486FADB265D13E200146C1E /* UpdateScroll.swift in Sources */,
 				7463A2BD265B1454006FAD8A /* Addupdate.swift in Sources */,
 				DCCA560726593A3200842243 /* Foryoucard2.swift in Sources */,
 				DCF1E6832657CA1500509B55 /* PuppyListView.swift in Sources */,

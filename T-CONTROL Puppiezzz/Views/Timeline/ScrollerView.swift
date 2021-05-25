@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ScrollerView: View {
     
-    var diaryEntries : [DiaryEntry] = [
+    var memoEntries : [DiaryEntry] = [
         DiaryEntry(image: "img1", emoticon: "🔥", date: "FRI, 14 MAY", heading: "Finally I'm confortable with my body"),
         DiaryEntry(image: "img2", emoticon: "🔥", date: "FRI, 15 MAY", heading: "Finally I'm super confortable with my body"),
         DiaryEntry(image: "img3", emoticon: "🔥", date: "FRI, 16 MAY", heading: "Finally I'm hyper confortable with my body"),

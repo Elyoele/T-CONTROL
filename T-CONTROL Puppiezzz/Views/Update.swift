@@ -35,7 +35,7 @@ struct Update: View {
                 
                 VStack{
                     HStack{
-                        Updatescroll()
+                        UpdateScroll()
                     }
                 }
             }
