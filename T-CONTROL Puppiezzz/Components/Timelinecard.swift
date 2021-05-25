@@ -39,7 +39,7 @@ struct Timelinecard: View {
                         }
                         .padding(.bottom, 5)
                         Text(heading)
-                            .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                            .font(.title)
                             .fontWeight(.black)
                             .foregroundColor(.primary)
                             .lineLimit(3)
@@ -55,11 +55,11 @@ struct Timelinecard: View {
                     .resizable()
                     .aspectRatio(contentMode: .fit)
             }
+            .background(Color.white)
             .cornerRadius(10)
-            .overlay(
-                RoundedRectangle(cornerRadius: 10)
-                    .stroke(Color(.sRGB, red: 150/255, green: 150/255, blue: 150/255, opacity: 0.1), lineWidth: 1))
             .padding([.top, .horizontal])
+            .shadow(color: Color(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 0.1599999964237213)), radius:28, x:0, y:8)
+            
         }
         .buttonStyle(PlainButtonStyle())
         .navigationTitle("Timeline")
