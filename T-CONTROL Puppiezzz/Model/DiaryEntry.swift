@@ -13,4 +13,5 @@ struct DiaryEntry {
     var emoticon : String
     var date : String
     var heading : String
+    var description : String
 }

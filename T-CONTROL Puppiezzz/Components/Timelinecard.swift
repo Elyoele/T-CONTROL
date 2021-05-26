@@ -10,12 +10,13 @@ import SwiftUI
 struct Timelinecard: View {
     
     @State var image : String
-    var emoticon : String
-    var date : String
+    @State var emoticon : String
+    @State var date : String
     @State var heading : String
+    @State var description : String
     
     var body: some View {
-        NavigationLink(destination: Update(image: $image, heading: $heading)) {
+        NavigationLink(destination: Update(image: $image, heading: $heading, description: $description, emoticon: $emoticon, date: $date)) {
             VStack {
                 HStack {
                     VStack(alignment: .leading) {
@@ -66,9 +67,9 @@ struct Timelinecard: View {
     }
 }
 
-struct Timelinecard_Previews: PreviewProvider {
-    static var previews: some View {
-        Timelinecard(image: "img1", emoticon: "🔥", date: "FRI, 14 MAY", heading: "Finally I'm comfortable with my body")
-            .previewLayout(.sizeThatFits)
-    }
-}
+//struct Timelinecard_Previews: PreviewProvider {
+//    static var previews: some View {
+//        Timelinecard(image: "img1", emoticon: "🔥", date: "FRI, 14 MAY", heading: "Finally I'm comfortable with my body")
+//            .previewLayout(.sizeThatFits)
+//    }
+//}

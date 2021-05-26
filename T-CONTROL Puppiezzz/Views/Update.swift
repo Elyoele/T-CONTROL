@@ -12,7 +12,9 @@ struct Update: View {
     
     @Binding var image: String
     @Binding var heading: String
-    var description = "lorem ipsum"
+    @Binding var description: String
+    @Binding var emoticon: String
+    @Binding var date: String
     
     var body: some View {
         
@@ -42,17 +44,28 @@ struct Update: View {
                         }
                         
                         
-                        Text(heading)
-                            .font(.title)
-                            .fontWeight(.black)
-                            .foregroundColor(.white)
-                            .lineLimit(3)
-                            .layoutPriority(100)
-                            .padding()
+                        VStack {
+                            
+                            Text(date)
+                                .frame(maxWidth: .infinity, alignment: .leading)
+                                .font(.caption)
+                                .foregroundColor(Color.white.opacity(0.9))
+                                .padding(.leading)
+                                .padding(.bottom, 5)
+                            
+                            Text(heading)
+                                .fontWeight(.black)
+                                .frame(maxWidth: .infinity, alignment: .leading)
+                                .font(.title)
+                                .foregroundColor(.white)
+                                .lineLimit(3)
+                                .layoutPriority(100)
+                                .padding([.leading, .bottom])
+                        }
                     }
                 }
                 
-                Text("Today, for the first time since the surgery, I feel really good. I can finally go to the beach without shame. I’ll be free to remain shirtless without letting dysphoria take over.")
+                Text(description)
                     .padding(.horizontal)
                     .padding(.vertical, 10)
                 
@@ -64,7 +77,7 @@ struct Update: View {
                     })
                     .padding(.bottom, 10)
                     
-                    Text("🤩🥰")
+                    Text(emoticon)
                 }
                 
                 DoubleButton()
@@ -87,6 +100,6 @@ struct Update: View {
 
 struct Update_Previews: PreviewProvider {
     static var previews: some View {
-        Update(image: .constant(String("img1")), heading: .constant(String("ciao")))
+        Update(image: .constant("img1"), heading: .constant("ciao"), description: .constant("des1"), emoticon: .constant(" "), date: .constant("14"))
     }
 }
