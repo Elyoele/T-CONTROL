@@ -18,12 +18,14 @@ struct CompleteView: View {
             .onTapGesture {
                 self.tabSelection = 1
             }
-            Memo().tabItem {
-                Label("Memo", systemImage: "calendar")
+            .tag(1)
+            Calendar1().tabItem {
+                Label("Calendar", systemImage: "calendar")
             }
             .onTapGesture {
                 self.tabSelection = 2
             }
+            .tag(2)
         }
         .accentColor(Color(red: 0.4549019607843137, green: 0.5725490196078431, blue: 0.8431372549019608))
     }
