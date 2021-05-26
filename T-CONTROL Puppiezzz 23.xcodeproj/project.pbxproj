@@ -229,9 +229,9 @@
 			children = (
 				74B0FECF265B166900CFA296 /* Timeline */,
 				7463A25E26584990006FAD8A /* Memo.swift */,
-				7463A2BC265B1454006FAD8A /* Addupdate.swift */,
 				7463A26A26587C39006FAD8A /* Update.swift */,
 				7486FADA265D13E200146C1E /* UpdateScroll.swift */,
+				7463A2BC265B1454006FAD8A /* Addupdate.swift */,
 				7463A26C26587C63006FAD8A /* Addmemo.swift */,
 				7463A26226586646006FAD8A /* Foryou.swift */,
 			);

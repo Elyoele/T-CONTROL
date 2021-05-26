@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CompleteView: View {
     @State private var tabSelection = 1
-
+    
     var body: some View {
         TabView(selection: $tabSelection) {
             HVscrollView().tabItem {
@@ -19,8 +19,8 @@ struct CompleteView: View {
                 self.tabSelection = 1
             }
             .tag(1)
-            Calendar1().tabItem {
-                Label("Calendar", systemImage: "calendar")
+            Memo().tabItem {
+                Label("Memo", systemImage: "calendar")
             }
             .onTapGesture {
                 self.tabSelection = 2
