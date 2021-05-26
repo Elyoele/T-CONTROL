@@ -32,15 +32,28 @@ struct Update: View {
                                 .clipped()
                                 .overlay(LinearGradient(gradient: Gradient(colors: [Color.black.opacity(0.01), Color.black.opacity(0.6)]),
                                                     startPoint: .top, endPoint: .bottom))
-                            Button(
-                                action: {
-                                    self.presentationMode.wrappedValue.dismiss()
-                                },
-                                label: { Text("<Back") }
-                            )
-                            .foregroundColor(.white)
-                            .padding(.horizontal)
-                            .padding(.top, 40)
+                            HStack {
+                                Spacer()
+                                    .frame(width: 310.0)
+                                VStack {
+                                    Spacer()
+                                        .frame(width: /*@START_MENU_TOKEN@*/1.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/20.0/*@END_MENU_TOKEN@*/)
+                                    Button(
+                                        action: {
+                                            self.presentationMode.wrappedValue.dismiss()
+                                        },
+                                        label: { Image(systemName: "xmark.circle.fill")
+                                            .resizable()
+                                            .foregroundColor(Color(hue: 1.0, saturation: 0.0, brightness: 0.993, opacity: 0.70))
+                                            .frame(minWidth: 40, idealWidth: 40, maxWidth: 40, minHeight: 40, idealHeight: 40, maxHeight: 40, alignment: .center)
+                                            
+                                        }
+                                    )
+                                    .foregroundColor(.white)
+                                    .padding(.horizontal)
+                                    .padding(.top, 40)
+                                }
+                            }
                         }
                         
                         
@@ -90,6 +103,8 @@ struct Update: View {
                     }
                 }
             }
+            Spacer()
+                .frame(height: 80.0)
         }
         .navigationTitle(Text("May, 14"))
         .navigationBarHidden(true)

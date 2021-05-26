@@ -10,9 +10,9 @@ import SwiftUI
 struct ScrollerView: View {
     
     var UpdateEntries : [DiaryEntry] = [
-        DiaryEntry(image: "img3", emoticon: "🥳😎", date: "FRI, 14 MAY", heading: "Finally I'm confortable with my body", description: "des3"),
-        DiaryEntry(image: "img2", emoticon: "🤩", date: "FRI, 13 MAY", heading: "I feel good after the operation", description: "des2"),
-        DiaryEntry(image: "img1", emoticon: "🙂", date: "WED, 12 MAY", heading: "I’m fine", description: "des1"),
+        DiaryEntry(image: "img3", emoticon: "🥳😎", date: "FRI, 14 MAY", heading: "Finally I'm confortable with my body", description: "For the first time after the surgery I feel really good. I was looking forward to this feeling, I’m super excited. I can finally do things like go to the beach without shame."),
+        DiaryEntry(image: "img2", emoticon: "🤩", date: "FRI, 13 MAY", heading: "I feel good after the operation", description: "Today I feel really good. The operation changed my life. I finally recognize my body."),
+        DiaryEntry(image: "img1", emoticon: "🙂", date: "WED, 12 MAY", heading: "I’m fine", description: "A few days after the operation I already feel better. Now I can look at myself in the mirror but I’m still not quite comfortable."),
     ]
     
     var body: some View {

@@ -141,9 +141,9 @@ public struct CalendarList<T:Hashable, Content:View>: View {
             }
         }) {
             #if !os(macOS)
-            Image(systemName: "lessthan").font(.body)
+            Image(systemName: "chevron.left").font(.body)
             #else
-            Text("<").font(.body)
+            Image(systemName: "chevron.left").font(.body)
             #endif
         }
     }
@@ -156,7 +156,7 @@ public struct CalendarList<T:Hashable, Content:View>: View {
                     self.selectedDate = Date()
                 }
             }) {
-                Text("Today").font(.body)
+                Text(" ").font(.body)
             }
             .padding(.trailing, 20)
             Button(action: {
@@ -165,9 +165,9 @@ public struct CalendarList<T:Hashable, Content:View>: View {
                 }
             }) {
                 #if !os(macOS)
-                Image(systemName: "greaterthan").font(.body)
+                Image(systemName: "chevron.right").font(.body)
                 #else
-                Text(">").font(.body)
+                Image(systemName: "chevron.right").font(.body)
                 #endif
             }
         }

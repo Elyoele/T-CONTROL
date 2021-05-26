@@ -8,22 +8,30 @@
 import SwiftUI
 
 struct Addupdate: View {
+    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
     
     @State private var  name = ""
     
     var body: some View {
-        VStack{
-            VStack(alignment: .leading) {
-                Text("ciao")
-                    .font(.title)
-            }
-            .frame(maxWidth: .infinity)
-
-            Form {
-                TextField("Add a title", text: $name)
-        }
-        }
         
+        NavigationView {
+
+                Form {
+                    Section {
+                        TextField("Add a title", text: $name)
+                    }
+
+                    Section {
+                        TextField("Add a title", text: $name)
+                    }
+
+                    Section {
+                        TextField("Add a title", text: $name)
+                    }
+
+            }
+        }
+        .navigationTitle(Text("New update"))
     }
 }
 

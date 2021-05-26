@@ -8,12 +8,14 @@
 import SwiftUI
 
 struct Addmemo: View {
+    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
     
     @State private var  name = ""
     @State private var  description = ""
     @State private var wakeUp = Date()
     
     var body: some View {
+        NavigationView {
         VStack {
             Form {
                 Section {
@@ -43,7 +45,16 @@ struct Addmemo: View {
                 }
                 .frame(maxWidth: .infinity)
                 .padding(.vertical)
-                
+            }
+            .navigationBarItems(trailing: Button(
+                action: {
+                    self.presentationMode.wrappedValue.dismiss()
+                },
+                label: { Text("Done")
+                    
+                }
+            ))
+            .navigationTitle("Add memo")
             }
         }
         
