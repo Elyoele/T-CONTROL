@@ -27,7 +27,6 @@ struct CompleteView: View {
             }
             .tag(2)
         }
-        .accentColor(Color(red: 0.4549019607843137, green: 0.5725490196078431, blue: 0.8431372549019608))
     }
 }
 
