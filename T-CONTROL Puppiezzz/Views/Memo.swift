@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Calendar1: View {
+struct Memo: View {
     @State var showSheetView = false
     
     var events = [
@@ -23,7 +23,7 @@ struct Calendar1: View {
             CalendarList(events: self.events) { event in
                 Text("\(event.data)")
             }
-            .navigationTitle(Text("Calendar"))
+            .navigationTitle(Text("Memo"))
             .navigationBarItems(
                 trailing:
                     Button(action: {self.showSheetView.toggle()})
@@ -35,8 +35,8 @@ struct Calendar1: View {
     }
 }
 
-struct Calendar1_Previews: PreviewProvider {
+struct Memo_Previews: PreviewProvider {
     static var previews: some View {
-        Calendar1()
+        Memo()
     }
 }

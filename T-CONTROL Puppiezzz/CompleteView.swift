@@ -18,8 +18,8 @@ struct CompleteView: View {
             .onTapGesture {
                 self.tabSelection = 1
             }
-            Calendar1().tabItem {
-                Label("Calendar", systemImage: "calendar")
+            Memo().tabItem {
+                Label("Memo", systemImage: "calendar")
             }
             .onTapGesture {
                 self.tabSelection = 2

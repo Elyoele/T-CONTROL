@@ -13,11 +13,17 @@ struct Addupdate: View {
     
     var body: some View {
         VStack{
-            
+            VStack(alignment: .leading) {
+                Text("ciao")
+                    .font(.title)
+            }
+            .frame(maxWidth: .infinity)
+
             Form {
                 TextField("Add a title", text: $name)
         }
         }
+        
     }
 }
 
