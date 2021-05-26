@@ -12,13 +12,13 @@ struct CompleteView: View {
 
     var body: some View {
         TabView(selection: $tabSelection) {
-            HVscrollView(tabSelection: $tabSelection).tabItem {
+            HVscrollView().tabItem {
                 Label("Timeline", systemImage: "photo.tv")
             }
             .onTapGesture {
                 self.tabSelection = 1
             }
-            Calendar1(tabSelection: $tabSelection).tabItem {
+            Calendar1().tabItem {
                 Label("Calendar", systemImage: "calendar")
             }
             .onTapGesture {
