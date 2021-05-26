@@ -9,13 +9,13 @@ import SwiftUI
 
 struct Timelinecard: View {
     
-    var image : String
+    @State var image : String
     var emoticon : String
     var date : String
-    var heading : String
+    @State var heading : String
     
     var body: some View {
-        NavigationLink(destination: Update()) {
+        NavigationLink(destination: Update(image: $image, heading: $heading)) {
             VStack {
                 HStack {
                     VStack(alignment: .leading) {

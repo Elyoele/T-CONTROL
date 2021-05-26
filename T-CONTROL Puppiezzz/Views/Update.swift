@@ -10,8 +10,8 @@ import SwiftUI
 struct Update: View {
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
     
-    var image = "img2"
-    var heading = "Finally I'm comfortable with my body"
+    @Binding var image: String
+    @Binding var heading: String
     var description = "lorem ipsum"
     
     var body: some View {
@@ -87,6 +87,6 @@ struct Update: View {
 
 struct Update_Previews: PreviewProvider {
     static var previews: some View {
-        Update()
+        Update(image: .constant(String("img1")), heading: .constant(String("ciao")))
     }
 }

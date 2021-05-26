@@ -15,13 +15,15 @@ struct Addmemo: View {
     
     var body: some View {
         VStack {
-            
             Form {
-                
-                TextField("Add a title", text: $name)
-                TextField("Add a description", text: $description)
-                DatePicker("ciao", selection: $wakeUp, in: Date()...)
-                
+                Section {
+                    TextField("Add a title", text: $name)
+                    TextField("Add a description", text: $description)
+                }
+                Section {
+                    DatePicker("ciao", selection: $wakeUp, in: Date()...)
+                }
+
             }
         }
     }
