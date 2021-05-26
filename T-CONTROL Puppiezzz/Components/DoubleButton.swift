@@ -12,7 +12,7 @@ struct DoubleButton: View {
         
         HStack{
             
-            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+            Button(action: actionSheet, label: {
                 VStack{
                     Image(systemName: "square.and.arrow.up")
                         .foregroundColor(.white)
@@ -38,6 +38,11 @@ struct DoubleButton: View {
                 
             })
         }
+        }
+    func actionSheet() {
+            guard let urlShare = URL(string: "https://developer.apple.com/xcode/swiftui/") else { return }
+            let activityVC = UIActivityViewController(activityItems: [urlShare], applicationActivities: nil)
+            UIApplication.shared.windows.first?.rootViewController?.present(activityVC, animated: true, completion: nil)
         }
     }
     
