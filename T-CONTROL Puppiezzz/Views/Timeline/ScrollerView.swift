@@ -30,7 +30,7 @@ struct ScrollerView: View {
     }
 }
 
-struct SwiftUIView_Previews: PreviewProvider {
+struct body_Previews: PreviewProvider {
     static var previews: some View {
         ScrollerView()
             .previewLayout(.sizeThatFits)

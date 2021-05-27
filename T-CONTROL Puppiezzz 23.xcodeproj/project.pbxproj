@@ -35,6 +35,8 @@
 		DC5CDE7B265A80F7003F39DB /* Modifier1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5CDE79265A80F7003F39DB /* Modifier1View.swift */; };
 		DC9D0CBC265E8B08001A131F /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9D0CBB265E8B08001A131F /* Categories.swift */; };
 		DC9D0CBE265E8CEF001A131F /* Chips.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9D0CBD265E8CEF001A131F /* Chips.swift */; };
+		DC9D0D06265F92EA001A131F /* ChecklistItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9D0D05265F92EA001A131F /* ChecklistItemView.swift */; };
+		DC9D0D08265FB432001A131F /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9D0D07265FB432001A131F /* ChecklistItem.swift */; };
 		DCCA560726593A3200842243 /* Foryoucard2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCA560626593A3200842243 /* Foryoucard2.swift */; };
 		DCCA560F2659445800842243 /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCA560E2659445800842243 /* StatusView.swift */; };
 		DCCA5612265946B800842243 /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCA5611265946B800842243 /* BindingView.swift */; };
@@ -101,6 +103,8 @@
 		DC5CDE79265A80F7003F39DB /* Modifier1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Modifier1View.swift; sourceTree = "<group>"; };
 		DC9D0CBB265E8B08001A131F /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
 		DC9D0CBD265E8CEF001A131F /* Chips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chips.swift; sourceTree = "<group>"; };
+		DC9D0D05265F92EA001A131F /* ChecklistItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistItemView.swift; sourceTree = "<group>"; };
+		DC9D0D07265FB432001A131F /* ChecklistItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
 		DCCA560626593A3200842243 /* Foryoucard2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foryoucard2.swift; sourceTree = "<group>"; };
 		DCCA560E2659445800842243 /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
 		DCCA5611265946B800842243 /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
@@ -158,6 +162,7 @@
 				1DA23580265CE082009231AA /* DiaryEntry.swift */,
 				7486FADC265D283700146C1E /* FuEntry.swift */,
 				7486FADE265D2A8B00146C1E /* HFuEntry.swift */,
+				DC9D0D07265FB432001A131F /* ChecklistItem.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -235,6 +240,7 @@
 				7486FADA265D13E200146C1E /* UpdateScroll.swift */,
 				7463A2BC265B1454006FAD8A /* Addupdate.swift */,
 				7463A26C26587C63006FAD8A /* Addmemo.swift */,
+				DC9D0D05265F92EA001A131F /* ChecklistItemView.swift */,
 				DC9D0CBB265E8B08001A131F /* Categories.swift */,
 				7463A26226586646006FAD8A /* Foryou.swift */,
 			);
@@ -472,6 +478,7 @@
 				DCF1E67B2657C99300509B55 /* HScrollView.swift in Sources */,
 				7463A26B26587C39006FAD8A /* Update.swift in Sources */,
 				7463A25D26584833006FAD8A /* CompleteView.swift in Sources */,
+				DC9D0D06265F92EA001A131F /* ChecklistItemView.swift in Sources */,
 				1DA235C0265D6CF2009231AA /* CalendarWeekdaySymbol.swift in Sources */,
 				DC1841352659C2840061AC83 /* ConditionalView.swift in Sources */,
 				DCCA56142659485B00842243 /* LoopView.swift in Sources */,
@@ -483,6 +490,7 @@
 				DC5CDE7B265A80F7003F39DB /* Modifier1View.swift in Sources */,
 				DCF1E6872657CA3B00509B55 /* Timelinecard.swift in Sources */,
 				DCF1E6522657C8F300509B55 /* TabbedView.swift in Sources */,
+				DC9D0D08265FB432001A131F /* ChecklistItem.swift in Sources */,
 				DCF1E6502657C8F300509B55 /* T_CONTROL_PuppiezzzApp.swift in Sources */,
 				7486FAD1265D013500146C1E /* SearchBar.swift in Sources */,
 				7463A261265855E4006FAD8A /* HVscrollView.swift in Sources */,
