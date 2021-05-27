@@ -121,7 +121,12 @@ public struct CalendarList<T:Hashable, Content:View>: View {
                         
             List {
                 ForEach(eventsForSelectedDate(), id:\.data) { event in
-                    self.viewForEventBlock(event)
+                    HStack {
+                        self.viewForEventBlock(event)
+                        Spacer()
+                        Chips(systemImage: "star.fill", titleKey: LocalizedStringKey(event.chip), isSelected: false)
+                            .allowsHitTesting(false)
+                    }
                 }
             }
         }

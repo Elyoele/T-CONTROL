@@ -13,18 +13,21 @@ import Foundation
 public struct CalendarEvent<T:Hashable> {
     public var date:Date
     public var data:T
+    public var chip:String
     
     public var calendar:Calendar
     
-    public init(calendar:Calendar = Calendar.current, date:Date, data:T) {
+    public init(calendar:Calendar = Calendar.current, date:Date, data:T, chip: String) {
         self.calendar = calendar
         self.data = data
         self.date = calendar.date(bySettingHour: 0, minute: 0, second: 0, of: date)!
+        self.chip = chip
     }
     
-    public init(calendar:Calendar = Calendar.current, dateString:String, dateFormat:String = "MM/dd/yyyy", data:T) {
+    public init(calendar:Calendar = Calendar.current, dateString:String, dateFormat:String = "MM/dd/yyyy", data:T, chip: String) {
         self.calendar = calendar
         self.data = data
+        self.chip = chip
         
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = dateFormat
