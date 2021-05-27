@@ -72,8 +72,24 @@ public struct CalendarList<T:Hashable, Content:View>: View {
     
     public var body: some View {
             NavigationView {
-                commonBody
-                .navigationBarTitle("\(self.months[self.currentPage].monthTitle())", displayMode: .inline)
+                VStack {
+                    HStack {
+                        leadingButtons()
+                            .frame(maxWidth: .infinity, alignment: .leading)
+
+                        Text("\(self.months[self.currentPage].monthTitle())")
+                            .font(.callout)
+                            .frame(maxWidth: .infinity, alignment: .center)
+                        trailingButtons()
+                            .frame(maxWidth: .infinity, alignment: .trailing)
+
+                    }
+                    .padding()
+                    commonBody
+                }
+                    
+                .navigationBarHidden(true)
+//                .navigationBarTitle("\(self.months[self.currentPage].monthTitle())", displayMode: .inline)
                 .navigationBarItems(leading: leadingButtons(), trailing: trailingButtons())
             }
         

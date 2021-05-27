@@ -33,11 +33,7 @@ struct Update: View {
                                 .overlay(LinearGradient(gradient: Gradient(colors: [Color.black.opacity(0.01), Color.black.opacity(0.6)]),
                                                     startPoint: .top, endPoint: .bottom))
                             HStack {
-                                Spacer()
-                                    .frame(width: 310.0)
-                                VStack {
                                     Spacer()
-                                        .frame(width: /*@START_MENU_TOKEN@*/1.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/20.0/*@END_MENU_TOKEN@*/)
                                     Button(
                                         action: {
                                             self.presentationMode.wrappedValue.dismiss()
@@ -51,8 +47,8 @@ struct Update: View {
                                     )
                                     .foregroundColor(.white)
                                     .padding(.horizontal)
-                                    .padding(.top, 40)
-                                }
+                                    .padding(.top, 50)
+
                             }
                         }
                         
