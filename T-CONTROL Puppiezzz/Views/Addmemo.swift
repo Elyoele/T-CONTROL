@@ -23,8 +23,10 @@ struct Addmemo: View {
                     TextField("Add a description", text: $description)
                 }
                 Section {
-                    DatePicker("Date", selection: $wakeUp, in: Date()...)
+                    DatePicker("Date and time", selection: $wakeUp, in: Date()...)
                 }
+                .frame(maxWidth: .infinity)
+                .padding(.vertical)
                 
                 VStack {
                     HStack(alignment: .center)  {
@@ -46,7 +48,15 @@ struct Addmemo: View {
                 .frame(maxWidth: .infinity)
                 .padding(.vertical)
             }
-            .navigationBarItems(trailing: Button(
+            .navigationBarItems(leading: Button(
+                action: {
+                    self.presentationMode.wrappedValue.dismiss()
+                },
+                label: { Text("Cancel")
+                    .foregroundColor(Color.red)
+                    
+                }
+            ), trailing: Button(
                 action: {
                     self.presentationMode.wrappedValue.dismiss()
                 },
