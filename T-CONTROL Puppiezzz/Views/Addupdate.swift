@@ -9,10 +9,14 @@ import SwiftUI
 
 struct Addupdate: View {
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
+    
+    @EnvironmentObject var diaryEntry: DiaryEntry
+    @State var newEntry = EntryModel()
+
     @State private var showingAlert = false
-    @State private var  name = ""
-    @State private var  description = ""
-    @State private var  emoticon = ""
+    @State private var name = ""
+    @State private var description = ""
+    @State private var emoticon = ""
     @State private var wakeUp = Date()
     @State private var scEmojiItems = [
         ScEmojiEntry(name: "Visits", emoticon: "🥰", isChecked: false),
@@ -28,8 +32,8 @@ struct Addupdate: View {
             Form {
 
                 Section {
-                        TextField("Add a title", text: $name)
-                    TextField("Add a description", text: $description)
+                    TextField("Add a title", text: $newEntry.heading)
+                    TextField("Add a description", text: $newEntry.description)
 
                 }
                 
@@ -73,6 +77,7 @@ struct Addupdate: View {
                 }
             ), trailing: Button(
                 action: {
+                    diaryEntry.cards.append(newEntry)
                     self.presentationMode.wrappedValue.dismiss()
                 },
                 label: { Text("Done")
