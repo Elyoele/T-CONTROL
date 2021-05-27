@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ScrollerView: View {
     
-    @ObservedObject var diaryEntry = DiaryEntry()
+    @ObservedObject private var diaryEntry = DiaryEntry()
 
     var body: some View {
         ScrollView {
@@ -21,6 +21,7 @@ struct ScrollerView: View {
                 ForEach(diaryEntry.cards, id: \.id) { card in
                     Timelinecard(image: card.image, emoticon: card.emoticon, date: card.date, heading: card.heading, description: card.description)
                             }
+                .environmentObject(self.diaryEntry)
             }
         }
     }

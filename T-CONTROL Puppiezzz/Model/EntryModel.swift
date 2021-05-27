@@ -20,9 +20,9 @@ struct EntryModel: Identifiable {
 
 
     init(image: String , emoticon: String, date: String, heading: String, description: String) {
-        self.image = "img1"
-        self.emoticon = "🥰"
-        self.date = "heihe"
+        self.image = image
+        self.emoticon = emoticon
+        self.date = date
         self.heading = heading
         self.description = description
 

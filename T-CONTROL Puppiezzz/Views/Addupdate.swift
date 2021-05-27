@@ -10,7 +10,7 @@ import SwiftUI
 struct Addupdate: View {
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
     
-    @EnvironmentObject var diaryEntry: DiaryEntry
+    @ObservedObject private var diaryEntry = DiaryEntry()
     @State var newEntry = EntryModel()
 
     @State private var showingAlert = false
@@ -85,6 +85,8 @@ struct Addupdate: View {
                 }
             ))
             .navigationTitle("Add Update")
+            .environmentObject(diaryEntry)
+
             }
         
         }

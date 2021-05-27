@@ -9,6 +9,8 @@ import SwiftUI
 
 struct HVscrollView: View {
     
+    @EnvironmentObject private var diaryEntry: DiaryEntry
+
     @State var showSheetView = false
     @State var searchText: String = ""
     

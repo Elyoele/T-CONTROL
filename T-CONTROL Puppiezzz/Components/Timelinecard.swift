@@ -9,6 +9,8 @@ import SwiftUI
 
 struct Timelinecard: View {
     
+    @EnvironmentObject private var diaryEntry: DiaryEntry
+
     @State var image : String
     @State var emoticon : String
     @State var date : String

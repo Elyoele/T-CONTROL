@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct CompleteView: View {
+    @EnvironmentObject private var diaryEntry: DiaryEntry
+
     @State private var tabSelection = 1
     
     var body: some View {
