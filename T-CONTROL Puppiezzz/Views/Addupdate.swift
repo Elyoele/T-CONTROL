@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct Addupdate: View {
-    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
+    @Environment(\.presentationMode) var presentationMode
+
     
     @ObservedObject private var diaryEntry = DiaryEntry()
     @State var newEntry = EntryModel()
@@ -78,6 +79,7 @@ struct Addupdate: View {
             ), trailing: Button(
                 action: {
                     diaryEntry.cards.append(newEntry)
+                    print(diaryEntry.cards)
                     self.presentationMode.wrappedValue.dismiss()
                 },
                 label: { Text("Done")

@@ -16,7 +16,7 @@ class DiaryEntry: ObservableObject {
     var card2 =  EntryModel(image: "img2", emoticon: "🤩", date: "FRI, 13 MAY", heading: "I feel good after the operation", description: "Today I feel really good. The operation changed my life. I finally recognize my body.")
     var card3 = EntryModel(image: "img1", emoticon: "🙂", date: "WED, 12 MAY", heading: "I’m fine", description: "A few days after the operation I already feel better. Now I can look at myself in the mirror but I’m still not quite comfortable.")
     
-    init() { self.cards = [card1,card2,card3] }
+    init() { self.cards = [card1, card2, card3] }
        
     
 }

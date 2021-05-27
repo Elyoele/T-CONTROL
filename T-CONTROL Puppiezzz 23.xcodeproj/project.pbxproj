@@ -29,10 +29,6 @@
 		7486FADB265D13E200146C1E /* UpdateScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7486FADA265D13E200146C1E /* UpdateScroll.swift */; };
 		7486FADD265D283800146C1E /* FuEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7486FADC265D283700146C1E /* FuEntry.swift */; };
 		7486FADF265D2A8B00146C1E /* HFuEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7486FADE265D2A8B00146C1E /* HFuEntry.swift */; };
-		DC1841352659C2840061AC83 /* ConditionalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1841342659C2840061AC83 /* ConditionalView.swift */; };
-		DC5CDE73265A7D0B003F39DB /* Animations1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5CDE72265A7D0B003F39DB /* Animations1View.swift */; };
-		DC5CDE7A265A80F7003F39DB /* Modifier2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5CDE78265A80F7003F39DB /* Modifier2View.swift */; };
-		DC5CDE7B265A80F7003F39DB /* Modifier1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5CDE79265A80F7003F39DB /* Modifier1View.swift */; };
 		DC7889E9265FDC0000CE9162 /* ScEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7889E8265FDC0000CE9162 /* ScEmoji.swift */; };
 		DC7889EE266000AA00CE9162 /* scEmojiEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7889ED266000AA00CE9162 /* scEmojiEntry.swift */; };
 		DC7889F42660501C00CE9162 /* EntryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7889F32660501C00CE9162 /* EntryModel.swift */; };
@@ -40,21 +36,13 @@
 		DC9D0D06265F92EA001A131F /* ChecklistItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9D0D05265F92EA001A131F /* ChecklistItemView.swift */; };
 		DC9D0D08265FB432001A131F /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9D0D07265FB432001A131F /* ChecklistItem.swift */; };
 		DCCA560726593A3200842243 /* Foryoucard2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCA560626593A3200842243 /* Foryoucard2.swift */; };
-		DCCA560F2659445800842243 /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCA560E2659445800842243 /* StatusView.swift */; };
-		DCCA5612265946B800842243 /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCA5611265946B800842243 /* BindingView.swift */; };
-		DCCA56142659485B00842243 /* LoopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCA56132659485B00842243 /* LoopView.swift */; };
-		DCCA561826594C8600842243 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCA561726594C8600842243 /* AlertView.swift */; };
-		DCCA561A26594F7D00842243 /* ModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCA561926594F7D00842243 /* ModifierView.swift */; };
 		DCF1E6502657C8F300509B55 /* T_CONTROL_PuppiezzzApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF1E64F2657C8F300509B55 /* T_CONTROL_PuppiezzzApp.swift */; };
-		DCF1E6522657C8F300509B55 /* TabbedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF1E6512657C8F300509B55 /* TabbedView.swift */; };
 		DCF1E6542657C8F400509B55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCF1E6532657C8F400509B55 /* Assets.xcassets */; };
 		DCF1E6572657C8F400509B55 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCF1E6562657C8F400509B55 /* Preview Assets.xcassets */; };
 		DCF1E6622657C8F400509B55 /* T_CONTROL_PuppiezzzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF1E6612657C8F400509B55 /* T_CONTROL_PuppiezzzTests.swift */; };
 		DCF1E66D2657C8F400509B55 /* T_CONTROL_PuppiezzzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF1E66C2657C8F400509B55 /* T_CONTROL_PuppiezzzUITests.swift */; };
 		DCF1E67B2657C99300509B55 /* HScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF1E67A2657C99300509B55 /* HScrollView.swift */; };
 		DCF1E67D2657C9A900509B55 /* Foryoucard1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF1E67C2657C9A900509B55 /* Foryoucard1.swift */; };
-		DCF1E6812657C9F200509B55 /* PresentationEleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF1E6802657C9F200509B55 /* PresentationEleView.swift */; };
-		DCF1E6832657CA1500509B55 /* PuppyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF1E6822657CA1500509B55 /* PuppyListView.swift */; };
 		DCF1E6852657CA2A00509B55 /* ScrollerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF1E6842657CA2A00509B55 /* ScrollerView.swift */; };
 		DCF1E6872657CA3B00509B55 /* Timelinecard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF1E6862657CA3B00509B55 /* Timelinecard.swift */; };
 /* End PBXBuildFile section */
@@ -99,10 +87,6 @@
 		7486FADA265D13E200146C1E /* UpdateScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateScroll.swift; sourceTree = "<group>"; };
 		7486FADC265D283700146C1E /* FuEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuEntry.swift; sourceTree = "<group>"; };
 		7486FADE265D2A8B00146C1E /* HFuEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HFuEntry.swift; sourceTree = "<group>"; };
-		DC1841342659C2840061AC83 /* ConditionalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalView.swift; sourceTree = "<group>"; };
-		DC5CDE72265A7D0B003F39DB /* Animations1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations1View.swift; sourceTree = "<group>"; };
-		DC5CDE78265A80F7003F39DB /* Modifier2View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Modifier2View.swift; sourceTree = "<group>"; };
-		DC5CDE79265A80F7003F39DB /* Modifier1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Modifier1View.swift; sourceTree = "<group>"; };
 		DC7889E8265FDC0000CE9162 /* ScEmoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScEmoji.swift; sourceTree = "<group>"; };
 		DC7889ED266000AA00CE9162 /* scEmojiEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scEmojiEntry.swift; sourceTree = "<group>"; };
 		DC7889F32660501C00CE9162 /* EntryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryModel.swift; sourceTree = "<group>"; };
@@ -110,14 +94,8 @@
 		DC9D0D05265F92EA001A131F /* ChecklistItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistItemView.swift; sourceTree = "<group>"; };
 		DC9D0D07265FB432001A131F /* ChecklistItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
 		DCCA560626593A3200842243 /* Foryoucard2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foryoucard2.swift; sourceTree = "<group>"; };
-		DCCA560E2659445800842243 /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
-		DCCA5611265946B800842243 /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
-		DCCA56132659485B00842243 /* LoopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopView.swift; sourceTree = "<group>"; };
-		DCCA561726594C8600842243 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
-		DCCA561926594F7D00842243 /* ModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifierView.swift; sourceTree = "<group>"; };
 		DCF1E64C2657C8F300509B55 /* T-CONTROL Puppiezzz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "T-CONTROL Puppiezzz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCF1E64F2657C8F300509B55 /* T_CONTROL_PuppiezzzApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = T_CONTROL_PuppiezzzApp.swift; sourceTree = "<group>"; };
-		DCF1E6512657C8F300509B55 /* TabbedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbedView.swift; sourceTree = "<group>"; };
 		DCF1E6532657C8F400509B55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCF1E6562657C8F400509B55 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DCF1E6582657C8F400509B55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -129,8 +107,6 @@
 		DCF1E66E2657C8F400509B55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCF1E67A2657C99300509B55 /* HScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HScrollView.swift; sourceTree = "<group>"; };
 		DCF1E67C2657C9A900509B55 /* Foryoucard1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foryoucard1.swift; sourceTree = "<group>"; };
-		DCF1E6802657C9F200509B55 /* PresentationEleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationEleView.swift; sourceTree = "<group>"; };
-		DCF1E6822657CA1500509B55 /* PuppyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuppyListView.swift; sourceTree = "<group>"; };
 		DCF1E6842657CA2A00509B55 /* ScrollerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollerView.swift; sourceTree = "<group>"; };
 		DCF1E6862657CA3B00509B55 /* Timelinecard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timelinecard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -213,16 +189,6 @@
 			path = DataStructures;
 			sourceTree = "<group>";
 		};
-		7463A26E26587CEC006FAD8A /* Non serve ma diverte */ = {
-			isa = PBXGroup;
-			children = (
-				DCF1E6512657C8F300509B55 /* TabbedView.swift */,
-				DCF1E6802657C9F200509B55 /* PresentationEleView.swift */,
-				DCF1E6822657CA1500509B55 /* PuppyListView.swift */,
-			);
-			path = "Non serve ma diverte";
-			sourceTree = "<group>";
-		};
 		74B0FECD265B15E300CFA296 /* Components */ = {
 			isa = PBXGroup;
 			children = (
@@ -263,30 +229,12 @@
 			path = Timeline;
 			sourceTree = "<group>";
 		};
-		DCCA56102659468300842243 /* prove */ = {
-			isa = PBXGroup;
-			children = (
-				DCCA560E2659445800842243 /* StatusView.swift */,
-				DCCA5611265946B800842243 /* BindingView.swift */,
-				DCCA56132659485B00842243 /* LoopView.swift */,
-				DCCA561726594C8600842243 /* AlertView.swift */,
-				DCCA561926594F7D00842243 /* ModifierView.swift */,
-				DC1841342659C2840061AC83 /* ConditionalView.swift */,
-				DC5CDE72265A7D0B003F39DB /* Animations1View.swift */,
-				DC5CDE79265A80F7003F39DB /* Modifier1View.swift */,
-				DC5CDE78265A80F7003F39DB /* Modifier2View.swift */,
-			);
-			path = prove;
-			sourceTree = "<group>";
-		};
 		DCF1E6432657C8F300509B55 = {
 			isa = PBXGroup;
 			children = (
 				DCF1E64E2657C8F300509B55 /* T-CONTROL Puppiezzz */,
 				DCF1E6602657C8F400509B55 /* T-CONTROL PuppiezzzTests */,
 				DCF1E66B2657C8F400509B55 /* T-CONTROL PuppiezzzUITests */,
-				DCCA56102659468300842243 /* prove */,
-				7463A26E26587CEC006FAD8A /* Non serve ma diverte */,
 			);
 			sourceTree = "<group>";
 		};
@@ -478,24 +426,18 @@
 			files = (
 				7486FAD9265D135900146C1E /* DoubleButton.swift in Sources */,
 				1DA235B6265D6CAF009231AA /* PagerView.swift in Sources */,
-				DC5CDE7A265A80F7003F39DB /* Modifier2View.swift in Sources */,
 				7463A26D26587C63006FAD8A /* Addmemo.swift in Sources */,
-				DCCA561826594C8600842243 /* AlertView.swift in Sources */,
 				DCF1E67B2657C99300509B55 /* HScrollView.swift in Sources */,
 				7463A26B26587C39006FAD8A /* Update.swift in Sources */,
 				7463A25D26584833006FAD8A /* CompleteView.swift in Sources */,
 				DC9D0D06265F92EA001A131F /* ChecklistItemView.swift in Sources */,
 				1DA235C0265D6CF2009231AA /* CalendarWeekdaySymbol.swift in Sources */,
-				DC1841352659C2840061AC83 /* ConditionalView.swift in Sources */,
-				DCCA56142659485B00842243 /* LoopView.swift in Sources */,
 				1DA235CD265D6D07009231AA /* CalendarMonthView.swift in Sources */,
 				7463A26326586646006FAD8A /* Foryou.swift in Sources */,
 				DC9D0CBE265E8CEF001A131F /* Chips.swift in Sources */,
 				7486FADF265D2A8B00146C1E /* HFuEntry.swift in Sources */,
 				7486FADD265D283800146C1E /* FuEntry.swift in Sources */,
-				DC5CDE7B265A80F7003F39DB /* Modifier1View.swift in Sources */,
 				DCF1E6872657CA3B00509B55 /* Timelinecard.swift in Sources */,
-				DCF1E6522657C8F300509B55 /* TabbedView.swift in Sources */,
 				DC9D0D08265FB432001A131F /* ChecklistItem.swift in Sources */,
 				DCF1E6502657C8F300509B55 /* T_CONTROL_PuppiezzzApp.swift in Sources */,
 				DC7889E9265FDC0000CE9162 /* ScEmoji.swift in Sources */,
@@ -503,23 +445,17 @@
 				7463A261265855E4006FAD8A /* HVscrollView.swift in Sources */,
 				1DA235C1265D6CF2009231AA /* CalendarUtils.swift in Sources */,
 				DC7889F42660501C00CE9162 /* EntryModel.swift in Sources */,
-				DCCA561A26594F7D00842243 /* ModifierView.swift in Sources */,
 				1DA23581265CE082009231AA /* DiaryEntry.swift in Sources */,
 				7463A25F26584990006FAD8A /* Memo.swift in Sources */,
-				DCCA560F2659445800842243 /* StatusView.swift in Sources */,
-				DC5CDE73265A7D0B003F39DB /* Animations1View.swift in Sources */,
 				1DA235DC265D6D21009231AA /* CalendarEvent.swift in Sources */,
 				DC7889EE266000AA00CE9162 /* scEmojiEntry.swift in Sources */,
 				1DA235B8265D6CAF009231AA /* CalendarList.swift in Sources */,
-				DCCA5612265946B800842243 /* BindingView.swift in Sources */,
 				1DA235DB265D6D21009231AA /* CalendarMonth.swift in Sources */,
 				1DA235CC265D6D07009231AA /* CalendarMonthHeader.swift in Sources */,
 				1DA235CE265D6D07009231AA /* CalendarViewDay.swift in Sources */,
 				7486FADB265D13E200146C1E /* UpdateScroll.swift in Sources */,
 				7463A2BD265B1454006FAD8A /* Addupdate.swift in Sources */,
 				DCCA560726593A3200842243 /* Foryoucard2.swift in Sources */,
-				DCF1E6832657CA1500509B55 /* PuppyListView.swift in Sources */,
-				DCF1E6812657C9F200509B55 /* PresentationEleView.swift in Sources */,
 				DCF1E6852657CA2A00509B55 /* ScrollerView.swift in Sources */,
 				DCF1E67D2657C9A900509B55 /* Foryoucard1.swift in Sources */,
 			);
