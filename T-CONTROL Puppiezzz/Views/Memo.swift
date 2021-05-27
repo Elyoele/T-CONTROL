@@ -11,12 +11,12 @@ struct Memo: View {
     @State var showSheetView = false
     
     var events = [
-        CalendarEvent(dateString: "05/18/2021", data: "Testosterone gel", chip: "Test"),
-        CalendarEvent(dateString: "05/20/2021", data: "Endocrinologist", chip: "Test"),
-        CalendarEvent(dateString: "05/23/2021", data: "Injection", chip: "Test"),
-        CalendarEvent(dateString: "05/27/2021", data: "Psychologist", chip: "Test"),
-        CalendarEvent(dateString: "05/27/2021", data: "Testosterone gel", chip: "Test"),
-        CalendarEvent(dateString: "05/31/2021", data: "Marika's birthday", chip: "Test")
+        CalendarEvent(dateString: "05/18/2021", data: "Testosterone gel", symbol: "cross.case", bgColor: .green),
+        CalendarEvent(dateString: "05/20/2021", data: "Endocrinologist", symbol: "heart.text.square", bgColor: .red),
+        CalendarEvent(dateString: "05/23/2021", data: "Injection", symbol: "pills", bgColor: .blue),
+        CalendarEvent(dateString: "05/28/2021", data: "Psychologist", symbol: "cross.case", bgColor: .green),
+        CalendarEvent(dateString: "05/27/2021", data: "Testosterone gel", symbol: "exclamationmark.circle", bgColor: .red),
+        CalendarEvent(dateString: "05/31/2021", data: "Marika's birthday", symbol: "giftcard", bgColor: .purple)
     ]
     
     var body: some View {

@@ -33,7 +33,8 @@
 		DC5CDE73265A7D0B003F39DB /* Animations1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5CDE72265A7D0B003F39DB /* Animations1View.swift */; };
 		DC5CDE7A265A80F7003F39DB /* Modifier2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5CDE78265A80F7003F39DB /* Modifier2View.swift */; };
 		DC5CDE7B265A80F7003F39DB /* Modifier1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5CDE79265A80F7003F39DB /* Modifier1View.swift */; };
-		DC9D0CBC265E8B08001A131F /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9D0CBB265E8B08001A131F /* Categories.swift */; };
+		DC7889E9265FDC0000CE9162 /* ScEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7889E8265FDC0000CE9162 /* ScEmoji.swift */; };
+		DC7889EE266000AA00CE9162 /* scEmojiEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7889ED266000AA00CE9162 /* scEmojiEntry.swift */; };
 		DC9D0CBE265E8CEF001A131F /* Chips.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9D0CBD265E8CEF001A131F /* Chips.swift */; };
 		DC9D0D06265F92EA001A131F /* ChecklistItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9D0D05265F92EA001A131F /* ChecklistItemView.swift */; };
 		DC9D0D08265FB432001A131F /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9D0D07265FB432001A131F /* ChecklistItem.swift */; };
@@ -101,7 +102,8 @@
 		DC5CDE72265A7D0B003F39DB /* Animations1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations1View.swift; sourceTree = "<group>"; };
 		DC5CDE78265A80F7003F39DB /* Modifier2View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Modifier2View.swift; sourceTree = "<group>"; };
 		DC5CDE79265A80F7003F39DB /* Modifier1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Modifier1View.swift; sourceTree = "<group>"; };
-		DC9D0CBB265E8B08001A131F /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		DC7889E8265FDC0000CE9162 /* ScEmoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScEmoji.swift; sourceTree = "<group>"; };
+		DC7889ED266000AA00CE9162 /* scEmojiEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scEmojiEntry.swift; sourceTree = "<group>"; };
 		DC9D0CBD265E8CEF001A131F /* Chips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chips.swift; sourceTree = "<group>"; };
 		DC9D0D05265F92EA001A131F /* ChecklistItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistItemView.swift; sourceTree = "<group>"; };
 		DC9D0D07265FB432001A131F /* ChecklistItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 				7486FADC265D283700146C1E /* FuEntry.swift */,
 				7486FADE265D2A8B00146C1E /* HFuEntry.swift */,
 				DC9D0D07265FB432001A131F /* ChecklistItem.swift */,
+				DC7889ED266000AA00CE9162 /* scEmojiEntry.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -241,7 +244,7 @@
 				7463A2BC265B1454006FAD8A /* Addupdate.swift */,
 				7463A26C26587C63006FAD8A /* Addmemo.swift */,
 				DC9D0D05265F92EA001A131F /* ChecklistItemView.swift */,
-				DC9D0CBB265E8B08001A131F /* Categories.swift */,
+				DC7889E8265FDC0000CE9162 /* ScEmoji.swift */,
 				7463A26226586646006FAD8A /* Foryou.swift */,
 			);
 			path = Views;
@@ -492,9 +495,9 @@
 				DCF1E6522657C8F300509B55 /* TabbedView.swift in Sources */,
 				DC9D0D08265FB432001A131F /* ChecklistItem.swift in Sources */,
 				DCF1E6502657C8F300509B55 /* T_CONTROL_PuppiezzzApp.swift in Sources */,
+				DC7889E9265FDC0000CE9162 /* ScEmoji.swift in Sources */,
 				7486FAD1265D013500146C1E /* SearchBar.swift in Sources */,
 				7463A261265855E4006FAD8A /* HVscrollView.swift in Sources */,
-				DC9D0CBC265E8B08001A131F /* Categories.swift in Sources */,
 				1DA235C1265D6CF2009231AA /* CalendarUtils.swift in Sources */,
 				DCCA561A26594F7D00842243 /* ModifierView.swift in Sources */,
 				1DA23581265CE082009231AA /* DiaryEntry.swift in Sources */,
@@ -502,6 +505,7 @@
 				DCCA560F2659445800842243 /* StatusView.swift in Sources */,
 				DC5CDE73265A7D0B003F39DB /* Animations1View.swift in Sources */,
 				1DA235DC265D6D21009231AA /* CalendarEvent.swift in Sources */,
+				DC7889EE266000AA00CE9162 /* scEmojiEntry.swift in Sources */,
 				1DA235B8265D6CAF009231AA /* CalendarList.swift in Sources */,
 				DCCA5612265946B800842243 /* BindingView.swift in Sources */,
 				1DA235DB265D6D21009231AA /* CalendarMonth.swift in Sources */,

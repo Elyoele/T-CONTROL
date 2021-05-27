@@ -1,5 +1,5 @@
 //
-//  SwiftUIView.swift
+//  ScEmoji.swift
 //  T-CONTROL Puppiezzz
 //
 //  Created by Giosuè Coppola on 27/05/21.
@@ -7,19 +7,17 @@
 
 import SwiftUI
 
-struct ChecklistItemView: View {
+struct ScEmoji: View {
     
     var name : String
-    var symbol : String
-    var color : Color
+    var emoticon : String
     @State var isChecked : Bool
 
   var body: some View {
     
           HStack {
             HStack {
-                Image(systemName: symbol)
-                    .foregroundColor(color)
+                Text(emoticon)
                     .frame(width: 35.0)
                 
                 Text(name)

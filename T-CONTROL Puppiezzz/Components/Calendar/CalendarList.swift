@@ -124,7 +124,7 @@ public struct CalendarList<T:Hashable, Content:View>: View {
                     HStack {
                         self.viewForEventBlock(event)
                         Spacer()
-                        Chips(systemImage: "star.fill", titleKey: LocalizedStringKey(event.chip), isSelected: false)
+                        Chips(systemImage: event.symbol, bgColor: event.bgColor, isSelected: false)
                             .allowsHitTesting(false)
                     }
                 }
