@@ -20,11 +20,11 @@ struct Addupdate: View {
     @State private var emoticon = ""
     @State private var wakeUp = Date()
     @State private var scEmojiItems = [
-        ScEmojiEntry(name: "Visits", emoticon: "🥰", isChecked: false),
-        ScEmojiEntry(name: "Pills", emoticon: "😭", isChecked: false),
-        ScEmojiEntry(name: "Injections", emoticon: "😔", isChecked: false),
-        ScEmojiEntry(name: "Important", emoticon: "🤩", isChecked: false),
-        ScEmojiEntry(name: "Psychologist", emoticon: "🙂", isChecked: false),
+        ScEmojiEntry(name: "Self love", emoticon: "🥰", isChecked: false),
+        ScEmojiEntry(name: "Frustration", emoticon: "😭", isChecked: false),
+        ScEmojiEntry(name: "Sadness", emoticon: "😔", isChecked: false),
+        ScEmojiEntry(name: "Excitement", emoticon: "🤩", isChecked: false),
+        ScEmojiEntry(name: "Quiet", emoticon: "🙂", isChecked: false),
     ]
     
     var body: some View {
