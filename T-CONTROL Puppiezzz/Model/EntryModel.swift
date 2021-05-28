@@ -2,7 +2,7 @@
 //  EntryModel.swift
 //  T-CONTROL Puppiezzz
 //
-//  Created by Giosuè Coppola on 28/05/21.
+//  Created by Eleonora Coppola on 28/05/21.
 //
 
 import Foundation

@@ -102,7 +102,6 @@ struct Update: View {
             Spacer()
                 .frame(height: 80.0)
         }
-        .navigationTitle(Text("May, 14"))
         .navigationBarHidden(true)
         .edgesIgnoringSafeArea(.all)
     }

@@ -2,7 +2,7 @@
 //  ScEmoji.swift
 //  T-CONTROL Puppiezzz
 //
-//  Created by Giosuè Coppola on 27/05/21.
+//  Created by Eleonora Coppola on 27/05/21.
 //
 
 import SwiftUI

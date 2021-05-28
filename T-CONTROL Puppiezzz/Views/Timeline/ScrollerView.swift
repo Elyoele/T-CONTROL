@@ -2,7 +2,7 @@
 //  ScrollView.swift
 //  T-CONTROL Puppiezzz
 //
-//  Created by Giosuè Coppola on 21/05/21.
+//  Created by Eleonora Coppola on 21/05/21.
 //
 
 import SwiftUI
