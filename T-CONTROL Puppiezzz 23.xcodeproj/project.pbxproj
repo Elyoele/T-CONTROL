@@ -35,6 +35,8 @@
 		DC9D0CBE265E8CEF001A131F /* Chips.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9D0CBD265E8CEF001A131F /* Chips.swift */; };
 		DC9D0D06265F92EA001A131F /* ChecklistItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9D0D05265F92EA001A131F /* ChecklistItemView.swift */; };
 		DC9D0D08265FB432001A131F /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9D0D07265FB432001A131F /* ChecklistItem.swift */; };
+		DCAA1015266672EF00E2FB3E /* AddPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAA1014266672EF00E2FB3E /* AddPhotoView.swift */; };
+		DCAA10172666731700E2FB3E /* SUImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAA10162666731700E2FB3E /* SUImagePickerView.swift */; };
 		DCCA560726593A3200842243 /* Foryoucard2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCA560626593A3200842243 /* Foryoucard2.swift */; };
 		DCF1E6502657C8F300509B55 /* T_CONTROL_PuppiezzzApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF1E64F2657C8F300509B55 /* T_CONTROL_PuppiezzzApp.swift */; };
 		DCF1E6542657C8F400509B55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCF1E6532657C8F400509B55 /* Assets.xcassets */; };
@@ -93,6 +95,8 @@
 		DC9D0CBD265E8CEF001A131F /* Chips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chips.swift; sourceTree = "<group>"; };
 		DC9D0D05265F92EA001A131F /* ChecklistItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistItemView.swift; sourceTree = "<group>"; };
 		DC9D0D07265FB432001A131F /* ChecklistItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
+		DCAA1014266672EF00E2FB3E /* AddPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoView.swift; sourceTree = "<group>"; };
+		DCAA10162666731700E2FB3E /* SUImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUImagePickerView.swift; sourceTree = "<group>"; };
 		DCCA560626593A3200842243 /* Foryoucard2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foryoucard2.swift; sourceTree = "<group>"; };
 		DCF1E64C2657C8F300509B55 /* T-CONTROL Puppiezzz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "T-CONTROL Puppiezzz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCF1E64F2657C8F300509B55 /* T_CONTROL_PuppiezzzApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = T_CONTROL_PuppiezzzApp.swift; sourceTree = "<group>"; };
@@ -211,6 +215,8 @@
 				7463A26A26587C39006FAD8A /* Update.swift */,
 				7486FADA265D13E200146C1E /* UpdateScroll.swift */,
 				7463A2BC265B1454006FAD8A /* Addupdate.swift */,
+				DCAA1014266672EF00E2FB3E /* AddPhotoView.swift */,
+				DCAA10162666731700E2FB3E /* SUImagePickerView.swift */,
 				7463A26C26587C63006FAD8A /* Addmemo.swift */,
 				DC9D0D05265F92EA001A131F /* ChecklistItemView.swift */,
 				DC7889E8265FDC0000CE9162 /* ScEmoji.swift */,
@@ -426,6 +432,7 @@
 			files = (
 				7486FAD9265D135900146C1E /* DoubleButton.swift in Sources */,
 				1DA235B6265D6CAF009231AA /* PagerView.swift in Sources */,
+				DCAA1015266672EF00E2FB3E /* AddPhotoView.swift in Sources */,
 				7463A26D26587C63006FAD8A /* Addmemo.swift in Sources */,
 				DCF1E67B2657C99300509B55 /* HScrollView.swift in Sources */,
 				7463A26B26587C39006FAD8A /* Update.swift in Sources */,
@@ -437,6 +444,7 @@
 				DC9D0CBE265E8CEF001A131F /* Chips.swift in Sources */,
 				7486FADF265D2A8B00146C1E /* HFuEntry.swift in Sources */,
 				7486FADD265D283800146C1E /* FuEntry.swift in Sources */,
+				DCAA10172666731700E2FB3E /* SUImagePickerView.swift in Sources */,
 				DCF1E6872657CA3B00509B55 /* Timelinecard.swift in Sources */,
 				DC9D0D08265FB432001A131F /* ChecklistItem.swift in Sources */,
 				DCF1E6502657C8F300509B55 /* T_CONTROL_PuppiezzzApp.swift in Sources */,

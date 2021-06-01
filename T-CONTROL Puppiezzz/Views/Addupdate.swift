@@ -42,15 +42,7 @@ struct Addupdate: View {
                     ScEmoji(name: item.name, emoticon: item.emoticon, isChecked: item.isChecked)}
                 
                 Section {
-                    Button(action: { self.showingAlert = true}, label: {
-                        Text("Add photo or video")
-                        
-                    })
-                    .alert(isPresented: $showingAlert) {
-                        Alert(title: Text("Photo added"), message: Text("You correctly added a photo to your timeline"), dismissButton: .default(Text("Continue")))
-                        
-
-                }
+                    AddPhotoView()
                 }
                 HStack {
                     VStack {
