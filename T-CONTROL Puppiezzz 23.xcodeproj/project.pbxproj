@@ -149,6 +149,7 @@
 				DC9D0D07265FB432001A131F /* ChecklistItem.swift */,
 				DC7889ED266000AA00CE9162 /* scEmojiEntry.swift */,
 				DC7889F32660501C00CE9162 /* EntryModel.swift */,
+				DCAA10162666731700E2FB3E /* SUImagePickerView.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -216,7 +217,6 @@
 				7486FADA265D13E200146C1E /* UpdateScroll.swift */,
 				7463A2BC265B1454006FAD8A /* Addupdate.swift */,
 				DCAA1014266672EF00E2FB3E /* AddPhotoView.swift */,
-				DCAA10162666731700E2FB3E /* SUImagePickerView.swift */,
 				7463A26C26587C63006FAD8A /* Addmemo.swift */,
 				DC9D0D05265F92EA001A131F /* ChecklistItemView.swift */,
 				DC7889E8265FDC0000CE9162 /* ScEmoji.swift */,

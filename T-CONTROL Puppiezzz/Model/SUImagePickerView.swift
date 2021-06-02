@@ -2,7 +2,7 @@
 //  SUImagePickerView.swift
 //  T-CONTROL Puppiezzz
 //
-//  Created by Giosuè Coppola on 01/06/21.
+//  Created by Eleonora Coppola on 01/06/21.
 //
 
 import SwiftUI
