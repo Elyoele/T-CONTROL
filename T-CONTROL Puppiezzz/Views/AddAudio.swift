@@ -1,3 +1,4 @@
+
 //
 //  AddAudio.swift
 //  T-CONTROL Puppiezzz
@@ -36,8 +37,18 @@ struct AudioRecord : View {
     
     var body: some View{
         
+        
+        VStack{
             
-            VStack{
+            HStack {
+                
+                VStack (alignment: .leading) {
+                    Text("Hold down to record your voice")
+                        .fontWeight(.bold)
+                    Text("Record your voice and listen to the changes. Say Hello!")
+                        .font(.subheadline)
+                }
+                .padding(.horizontal)
                 
                 Button(action: {
                     
@@ -64,7 +75,7 @@ struct AudioRecord : View {
                         
                         // same file name...
                         // so were updating based on audio count...
-                        let filName = url.appendingPathComponent("myRcd\(self.audios.count + 1).m4a")
+                        let filName = url.appendingPathComponent("rec\(self.audios.count + 1).m4a")
                         
                         let settings = [
                             
@@ -89,27 +100,28 @@ struct AudioRecord : View {
                     
                     ZStack{
                         
-                        Circle()
-                            .fill(Color.red)
-                            .frame(width: 70, height: 70)
+                        Chips(systemImage: "mic.fill", bgColor: .accentColor, isSelected: false)
+                        
                         
                         if self.record{
                             
-                            Circle()
-                                .stroke(Color.gray, lineWidth: 6)
-                                .frame(width: 85, height: 85)
+                            Chips(systemImage: "mic.fill", bgColor: .accentColor, isSelected: true)
+                            
                         }
                     }
+                    .padding(.all)
                 }
                 .padding(.vertical, 25)
-
-                List(self.audios,id: \.self){i in
-                    
-                    // printing only file name...
-                    
-                    Text(i.relativeString)
-                }
+            }
+            
+            
+            List(self.audios,id: \.self){i in
                 
+                // printing only file name...
+                
+                Text(i.relativeString)
+            }
+            
         }
         .alert(isPresented: self.$alert, content: {
             
