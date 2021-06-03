@@ -44,20 +44,7 @@ struct Addupdate: View {
                 Section {
                     AddPhotoView()
                 }
-                HStack {
-                    VStack {
-                        Text("Hold down to record your voice")
-                            .padding(.bottom, 0.2)
-                        Text("Record your voice and listen to the changes. Say Hello!")
-                            .font(.subheadline)
-                            .foregroundColor(Color.gray)
-                        
-                            
-                    }
-                    Spacer()
-                    Chips(systemImage: "mic.fill", bgColor: .accentColor, isSelected: false)
-                }
-                .padding(.vertical)
+                AddAudio()
             }
             
             .navigationBarItems(leading: Button(

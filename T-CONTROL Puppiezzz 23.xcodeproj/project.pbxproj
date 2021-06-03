@@ -17,6 +17,7 @@
 		1DA235CE265D6D07009231AA /* CalendarViewDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA235CB265D6D07009231AA /* CalendarViewDay.swift */; };
 		1DA235DB265D6D21009231AA /* CalendarMonth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA235D9265D6D21009231AA /* CalendarMonth.swift */; };
 		1DA235DC265D6D21009231AA /* CalendarEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA235DA265D6D21009231AA /* CalendarEvent.swift */; };
+		74277D07266919510005EFAF /* AddAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74277D06266919510005EFAF /* AddAudio.swift */; };
 		7463A25D26584833006FAD8A /* CompleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7463A25C26584833006FAD8A /* CompleteView.swift */; };
 		7463A25F26584990006FAD8A /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7463A25E26584990006FAD8A /* Memo.swift */; };
 		7463A261265855E4006FAD8A /* HVscrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7463A260265855E4006FAD8A /* HVscrollView.swift */; };
@@ -77,6 +78,7 @@
 		1DA235CB265D6D07009231AA /* CalendarViewDay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewDay.swift; sourceTree = "<group>"; };
 		1DA235D9265D6D21009231AA /* CalendarMonth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarMonth.swift; sourceTree = "<group>"; };
 		1DA235DA265D6D21009231AA /* CalendarEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarEvent.swift; sourceTree = "<group>"; };
+		74277D06266919510005EFAF /* AddAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAudio.swift; sourceTree = "<group>"; };
 		7463A25C26584833006FAD8A /* CompleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteView.swift; sourceTree = "<group>"; };
 		7463A25E26584990006FAD8A /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
 		7463A260265855E4006FAD8A /* HVscrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HVscrollView.swift; sourceTree = "<group>"; };
@@ -217,6 +219,7 @@
 				7486FADA265D13E200146C1E /* UpdateScroll.swift */,
 				7463A2BC265B1454006FAD8A /* Addupdate.swift */,
 				DCAA1014266672EF00E2FB3E /* AddPhotoView.swift */,
+				74277D06266919510005EFAF /* AddAudio.swift */,
 				7463A26C26587C63006FAD8A /* Addmemo.swift */,
 				DC9D0D05265F92EA001A131F /* ChecklistItemView.swift */,
 				DC7889E8265FDC0000CE9162 /* ScEmoji.swift */,
@@ -451,6 +454,7 @@
 				DC7889E9265FDC0000CE9162 /* ScEmoji.swift in Sources */,
 				7486FAD1265D013500146C1E /* SearchBar.swift in Sources */,
 				7463A261265855E4006FAD8A /* HVscrollView.swift in Sources */,
+				74277D07266919510005EFAF /* AddAudio.swift in Sources */,
 				1DA235C1265D6CF2009231AA /* CalendarUtils.swift in Sources */,
 				DC7889F42660501C00CE9162 /* EntryModel.swift in Sources */,
 				1DA23581265CE082009231AA /* DiaryEntry.swift in Sources */,
