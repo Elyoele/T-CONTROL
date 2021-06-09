@@ -39,89 +39,90 @@ struct AudioRecord : View {
         
         
         VStack{
-            
-            HStack {
-                
-                VStack (alignment: .leading) {
-                    Text("Hold down to record your voice")
-                        .fontWeight(.bold)
-                    Text("Record your voice and listen to the changes. Say Hello!")
-                        .font(.subheadline)
-                }
-                .padding(.horizontal)
-                
-                Button(action: {
+            VStack {
+                HStack {
                     
-                    // Now going to record audio...
+                    VStack (alignment: .leading) {
+                        Text("Hold down to record your voice")
+                            .fontWeight(.bold)
+                        Text("Record your voice and listen to the changes. Say Hello!")
+                            .font(.subheadline)
+                    }
+                    .padding(.horizontal)
                     
-                    // Intialization...
-                    
-                    // Were going to store audio in document directory...
-                    
-                    do{
+                    Button(action: {
                         
-                        if self.record{
+                        // Now going to record audio...
+                        
+                        // Intialization...
+                        
+                        // Were going to store audio in document directory...
+                        
+                        do{
                             
-                            // Already Started Recording means stopping and saving...
+                            if self.record{
+                                
+                                // Already Started Recording means stopping and saving...
+                                
+                                self.recorder.stop()
+                                self.record.toggle()
+                                // updating data for every rcd...
+                                self.getAudios()
+                                return
+                            }
                             
-                            self.recorder.stop()
+                            let url = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
+                            
+                            // same file name...
+                            // so were updating based on audio count...
+                            let filName = url.appendingPathComponent("rec\(self.audios.count + 1).m4a")
+                            
+                            let settings = [
+                                
+                                AVFormatIDKey : Int(kAudioFormatMPEG4AAC),
+                                AVSampleRateKey : 12000,
+                                AVNumberOfChannelsKey : 1,
+                                AVEncoderAudioQualityKey : AVAudioQuality.high.rawValue
+                                
+                            ]
+                            
+                            self.recorder = try AVAudioRecorder(url: filName, settings: settings)
+                            self.recorder.record()
                             self.record.toggle()
-                            // updating data for every rcd...
-                            self.getAudios()
-                            return
+                        }
+                        catch{
+                            
+                            print(error.localizedDescription)
                         }
                         
-                        let url = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
                         
-                        // same file name...
-                        // so were updating based on audio count...
-                        let filName = url.appendingPathComponent("rec\(self.audios.count + 1).m4a")
+                    }) {
                         
-                        let settings = [
+                        ZStack{
                             
-                            AVFormatIDKey : Int(kAudioFormatMPEG4AAC),
-                            AVSampleRateKey : 12000,
-                            AVNumberOfChannelsKey : 1,
-                            AVEncoderAudioQualityKey : AVAudioQuality.high.rawValue
+                            Chips(systemImage: "mic.fill", bgColor: .accentColor, isSelected: false)
                             
-                        ]
-                        
-                        self.recorder = try AVAudioRecorder(url: filName, settings: settings)
-                        self.recorder.record()
-                        self.record.toggle()
-                    }
-                    catch{
-                        
-                        print(error.localizedDescription)
-                    }
-                    
-                    
-                }) {
-                    
-                    ZStack{
-                        
-                        Chips(systemImage: "mic.fill", bgColor: .accentColor, isSelected: false)
-                        
-                        
-                        if self.record{
                             
-                            Chips(systemImage: "mic.fill", bgColor: .accentColor, isSelected: true)
-                            
+                            if self.record{
+                                
+                                Chips(systemImage: "mic.fill", bgColor: .accentColor, isSelected: true)
+                                
+                            }
                         }
+                        .padding(.all)
                     }
-                    .padding(.all)
+                    .padding(.vertical, 25)
                 }
-                .padding(.vertical, 25)
             }
-            
-            
-            List(self.audios,id: \.self){i in
+            VStack{
+                List(self.audios,id: \.self){i in
+                    
+                    // printing only file name...
+                    
+                    Text(i.relativeString)
+                }
                 
-                // printing only file name...
-                
-                Text(i.relativeString)
             }
-            
         }
         .alert(isPresented: self.$alert, content: {
             
